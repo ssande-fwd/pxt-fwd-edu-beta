@@ -16,7 +16,7 @@
         "fwd-edu-sonar": "github:climate-action-kits/pxt-fwd-edu/fwd-sonar",
         "fwd-edu-touch": "github:climate-action-kits/pxt-fwd-edu/fwd-touch",
         "fwd-edu-ph": "github:ssande-fwd/pxt-fwd-edu-steve/fwd-ph",
-        "fwd-edu-temp": "github:ssande-fwd/pxt-fwd-edu-steve/fwd-temp"
+        "fwd-edu-temperature": "github:ssande-fwd/pxt-fwd-edu-steve/fwd-temperature"
     },
     "files": [
         "README.md",
