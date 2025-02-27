@@ -1,6 +1,7 @@
 built/
 pxt_modules/
 tsconfig.json
+.idea
 
 # Logs
 logs
