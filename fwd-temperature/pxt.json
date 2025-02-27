@@ -1,7 +1,7 @@
 {
-    "name": "fwd-edu-ph",
+    "name": "fwd-edu-temperature",
     "version": "1.46.6",
-    "description": "FWD Edu Climate Action Kit Gen. 2 pH",
+    "description": "FWD Edu Climate Action Kit Gen. 2 Temperature",
     "license": "MIT",
     "dependencies": {
         "core": "*",
