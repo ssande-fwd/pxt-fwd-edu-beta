@@ -12,7 +12,7 @@ namespace fwdSensors {
          */
         //% group="Temperature"
         //% block="$this temperature (\\°)"
-        //% blockId=fwd_ph_get_temperature
+        //% blockId=fwd_temperature_get_temperature
         fwdTemperature(): number { return super.temperature() }
 
 
