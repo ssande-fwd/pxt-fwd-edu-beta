@@ -13,7 +13,7 @@ namespace fwdSensors {
         //% group="pH"
         //% block="$this pH"
         //% blockId=fwd_ph_get_ph
-        fwdAcidity(): number { return super.acidity() }
+        fwdPh(): number { return super.acidity() }
 
 
     }
