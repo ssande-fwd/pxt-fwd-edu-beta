@@ -17,12 +17,16 @@ namespace fwdSensors {
 
 
         /**
-         * Returns the sensor's distance reading in meters
+         * Generates linear calibration and saves slope and y-intercept for future readings
+         * @param ph4Reading test
+         * @param ph7Reading test
          */
         //% group="pH"
-        //% block="$this pH2"
-        //% blockId=fwd_ph_get_ph2
-        fwdPh2(): number { return super.acidity() }
+        //% block="$this measures pH 4 as $ph4Reading and pH 7 as $ph4Reading"
+        //% blockId=fwd_ph_calibration
+        fwdPhCalibrate( ph4Reading: number, ph7Reading: number ): void {
+            return super.acidity()
+        }
     }
 
     //% fixedInstance whenUsed
