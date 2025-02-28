@@ -16,7 +16,19 @@ namespace fwdSensors {
         //% group="pH"
         //% block="$this pH"
         //% blockId=fwd_ph_get_ph
-        fwdPh(): number { return this.ph4Reading }
+        fwdPh(): number {
+            if (this.ph4Reading !== undefined && this.ph7Reading !== undefined) {
+                // Implement your calibration logic here
+                // For example, a simple linear calibration:
+                const slope = (7 - 4) / (this.ph7Reading - this.ph4Reading);
+                const intercept = 4 - slope * this.ph4Reading;
+                const reading = super.acidity(); // Get the raw reading
+                return slope * reading + intercept;
+            } else {
+                // If calibration is not done, return the raw reading or a default value
+                return super.acidity(); // Or return a default value like 0 or NaN
+            }
+        }
 
 
         /**
