@@ -1,5 +1,5 @@
 namespace fwdMotors {
-   
+
   function createDrivingControls () {
     let enabled = false
     let leftMotor: fwdMotors.FwdServoClient
@@ -12,7 +12,7 @@ namespace fwdMotors {
       rightMotor = right
       if (bias > 0) {
         leftBias = (100 - bias) / 100
-      } else { 
+      } else {
         rightBias = (100 - bias) / 100
       }
       enabled = true
