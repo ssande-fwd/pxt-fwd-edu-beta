@@ -16,6 +16,17 @@ namespace fwdSensors {
         fwdPh(): number { return super.acidity() }
 
 
+        /**
+         * Generates linear calibration and saves slope and y-intercept for future readings
+         * @param ph4Reading what moisture level is the cut off before the code is run
+         * @param ph7Reading run when the level is above or below your set threshold
+         */
+        //% group="pH"
+        //% block="$this measures pH 4 as $ph4Reading and pH 7 as $ph4Reading"
+        //% blockId=fwd_ph_calibration
+        fwdPhCalibrate( ph4Reading: number, ph7Reading: number ): void {
+
+        }
     }
 
     //% fixedInstance whenUsed
