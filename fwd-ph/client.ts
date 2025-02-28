@@ -24,6 +24,7 @@ namespace fwdSensors {
         //% group="pH"
         //% block="Calibrate pH Probe|$this measures pH 4 as $ph4Reading|$this measures pH 7 as $ph7Reading"
         //% blockId=fwd_ph_calibration
+        //% inlineInputMode=external
         fwdPhCalibrate( ph4Reading: number, ph7Reading: number ): void {
 
         }
