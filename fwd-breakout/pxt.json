@@ -1,6 +1,6 @@
 {
     "name": "fwd-edu-breakout",
-    "version": "1.46.20",
+    "version": "1.46.21",
     "description": "FWD Edu Climate Action Kit Gen. 2 Breakout Board",
     "license": "MIT",
     "dependencies": {
