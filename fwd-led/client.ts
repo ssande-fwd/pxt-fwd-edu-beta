@@ -111,4 +111,5 @@ namespace fwdSensors {
 
   //% fixedInstance whenUsed
   export const ledRing = new FwdLEDClient("LED ring")
+  export const ledRing2 = new FwdLEDClient("LED ring 2")
 }
