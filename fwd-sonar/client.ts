@@ -44,5 +44,11 @@ namespace fwdSensors {
   }
 
   //% fixedInstance whenUsed
-  export const sonar1 = new FwdSonarClient("sonar 1");
+  export const sonar1 = new FwdSonarClient("Sonar 1");
+  //% fixedInstance whenUsed
+  export const sonar2 = new FwdSonarClient("Sonar 2");
+  //% fixedInstance whenUsed
+  export const sonar3 = new FwdSonarClient("Sonar 3");
+  //% fixedInstance whenUsed
+  export const sonar4 = new FwdSonarClient("Sonar 4");
 }

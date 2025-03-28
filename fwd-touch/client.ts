@@ -36,5 +36,11 @@ namespace fwdSensors {
   }
 
   //% fixedInstance whenUsed
-  export const touch = new FwdTouchClient("touch1")
+  export const touch1 = new FwdTouchClient("Touch 1")
+  //% fixedInstance whenUsed
+  export const touch2 = new FwdTouchClient("Touch 2")
+  //% fixedInstance whenUsed
+  export const touch3 = new FwdTouchClient("Touch 3")
+  //% fixedInstance whenUsed
+  export const touch4 = new FwdTouchClient("Touch 4")
 }
