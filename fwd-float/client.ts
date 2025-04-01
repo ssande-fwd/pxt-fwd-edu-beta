@@ -13,7 +13,7 @@ namespace fwdSensors {
     //% group="Float"
     //% block="on $this raised"
     //% blockId=fwd_float_on_raised
-    fwdOnFloatRaised(event: jacdac.ButtonEvent, handler: () => void) { super.onEvent(jacdac.ButtonEvent.Down, handler) }
+    fwdOnFloatRaised(handler: () => void) { super.onEvent(jacdac.ButtonEvent.Down, handler) }
 
     /**
      * Code to run when a chosen event occurs
@@ -21,7 +21,7 @@ namespace fwdSensors {
     //% group="Float"
     //% block="on $this lowered"
     //% blockId=fwd_float_on_lowered
-    fwdOnFloatLowered(event: jacdac.ButtonEvent, handler: () => void) { super.onEvent(jacdac.ButtonEvent.Up, handler) }
+    fwdOnFloatLowered(handler: () => void) { super.onEvent(jacdac.ButtonEvent.Up, handler) }
 
     /**
      * Returns true if the button is currently pressed, otherwise false
