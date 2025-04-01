@@ -10,7 +10,8 @@
         "jacdac-button": "github:microsoft/pxt-jacdac/button"
     },
     "files": [
-        "client.ts"
+        "client.ts",
+        "_locales/jacdac-float-strings.json"
     ],
     "supportedTargets": [
         "microbit"
