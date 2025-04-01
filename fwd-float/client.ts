@@ -9,20 +9,27 @@ namespace fwdSensors {
 
     /**
      * Code to run when a chosen event occurs
-     * @param event Button pressed (down), released (up)
      */
     //% group="Float"
-    //% block="on $this $event"
-    //% blockId=fwd_float_on_change
-    fwdOnFloat(event: jacdac.ButtonEvent, handler: () => void) { this.onEvent(event, handler) }
+    //% block="on $this raised"
+    //% blockId=fwd_float_on_raised
+    fwdOnFloatRaised(event: jacdac.ButtonEvent, handler: () => void) { super.onEvent(jacdac.ButtonEvent.Down, handler) }
+
+    /**
+     * Code to run when a chosen event occurs
+     */
+    //% group="Float"
+    //% block="on $this lowered"
+    //% blockId=fwd_float_on_lowered
+    fwdOnFloatLowered(event: jacdac.ButtonEvent, handler: () => void) { super.onEvent(jacdac.ButtonEvent.Up, handler) }
 
     /**
      * Returns true if the button is currently pressed, otherwise false
      */
     //% group="Float"
-    //% block="$this pressed"
-    //% blockId=fwd_float_is_up
-    fwdIsPressed(): boolean { return this.pressed() }
+    //% block="$this raised"
+    //% blockId=fwd_float_is_raised
+    fwdIsFloatRaised(): boolean { return this.pressed() }
 
 
   }
