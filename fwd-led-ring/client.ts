@@ -1,6 +1,6 @@
 namespace fwdSensors {
 
-  //% group="LED Lights"
+  //% group="LED Ring"
   //% blockId=fwd_led_names
   export const enum PixelNames {
 		//% block="PXL1"
@@ -42,7 +42,7 @@ namespace fwdSensors {
      */
     //% block="set $this brightness to $value"
     //% blockId=fwd_led_set_brightness
-    //% group="LED Lights"
+    //% group="LED Ring"
     //% value.min=0 value.max=10 value.defl=10
     fwdSetBrightness(value: number): void {
       this.setBrightness(this.toServiceBrightness(value))
@@ -53,7 +53,7 @@ namespace fwdSensors {
      */
     //% block="$this number of pixels"
     //% blockId=fwd_led_num_pixels
-    //% group="LED Lights"
+    //% group="LED Ring"
     fwdNumPixels(): number {
       return this.numPixels();
     }
@@ -63,7 +63,7 @@ namespace fwdSensors {
      */
     //% block="$this brightness"
     //% blockId=fwd_led_get_brightness
-    //% group="LED Lights"
+    //% group="LED Ring"
     fwdBrightness(): number {
       return this.toBlocksBrightness(this.brightness())
     }
@@ -75,7 +75,7 @@ namespace fwdSensors {
      */
     //% block="set $this $index to $rgb=colorNumberPicker"
     //% blockId=fwd_led_set_single_pixel_colour
-    //% group="LED Lights"
+    //% group="LED Ring"
     fwdSetPixelColour(index: PixelNames | number, rgb: number): void { this.setPixelColor(index, rgb) }
 
     /**
@@ -84,7 +84,7 @@ namespace fwdSensors {
      */
     //% block="set all $this LEDs to $rgb=colorNumberPicker"
     //% blockId=fwd_led_set_all_pixels_colour
-    //% group="LED Lights"
+    //% group="LED Ring"
     fwdSetAllPixelsColour(rgb: number): void { this.setAll(rgb) }
 
     /**
@@ -93,7 +93,7 @@ namespace fwdSensors {
      */
     //% block="rotate $this pattern by $offset"
     //% blockId=fwd_led_rotate_pattern
-    //% group="LED Lights"
+    //% group="LED Ring"
     //% offset.defl=1
     fwdRotate(offset:number): void { this.rotate(offset) }
 
@@ -103,7 +103,7 @@ namespace fwdSensors {
      */
     //% block="shift $this pattern by $offset"
     //% blockId=fwd_led_shift_pattern
-    //% group="LED Lights"
+    //% group="LED Ring"
     //% offset.defl=1
     fwdShift(offset:number): void { this.shift(offset) }
 
