@@ -1,4 +1,4 @@
-namespace modules {
+namespace fwdSensors {
     /**
      * Senses RGB colors
      **/
@@ -20,7 +20,7 @@ namespace modules {
          * Indicates the brightness of the light bulb. Zero means completely off and 0xffff means completely on.
          * For non-dimmable lights, the value should be clamp to 0xffff for any non-zero value.
          */
-        //% group="Environment"
+        //% group="Color"
         //% blockId=jacdac_color_brightness___set
         //% block="set %color brightness to %value (\\%)"
         //% weight=97
@@ -39,7 +39,7 @@ namespace modules {
          * Detected color in the RGB color space.
          */
         //% callInDebugger
-        //% group="Environment"
+        //% group="Color"
         //% block="%color red (\\%)"
         //% blockId=jacdac_color_color_red_get
         //% weight=100
@@ -53,7 +53,7 @@ namespace modules {
          * Detected color in the RGB color space.
          */
         //% callInDebugger
-        //% group="Environment"
+        //% group="Color"
         //% block="%color green (\\%)"
         //% blockId=jacdac_color_color_green_get
         //% weight=99
@@ -67,7 +67,7 @@ namespace modules {
          * Detected color in the RGB color space.
          */
         //% callInDebugger
-        //% group="Environment"
+        //% group="Color"
         //% block="%color blue (\\%)"
         //% blockId=jacdac_color_color_blue_get
         //% weight=98
