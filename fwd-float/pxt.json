@@ -11,7 +11,7 @@
     },
     "files": [
         "client.ts",
-        "_locales/jacdac-float-strings.json"
+        "_locales/jacdac-button-strings.json"
     ],
     "supportedTargets": [
         "microbit"

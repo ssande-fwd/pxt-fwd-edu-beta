@@ -9,15 +9,15 @@
         "fwd-edu-common": "github:climate-action-kits/pxt-fwd-edu/fwd-common",
         "fwd-edu-breakout": "github:climate-action-kits/pxt-fwd-edu/fwd-breakout",
         "fwd-edu-dial": "github:climate-action-kits/pxt-fwd-edu/fwd-dial",
-        "fwd-edu-float": "github:ssande-fwd/pxt-fwd-edu-ph/fwd-float#v1.46.33",
+        "fwd-edu-float": "github:ssande-fwd/pxt-fwd-edu-ph/fwd-float#v1.46.34",
         "fwd-edu-led": "github:climate-action-kits/pxt-fwd-edu/fwd-led",
-        "fwd-edu-lights-controller": "github:ssande-fwd/pxt-fwd-edu-ph/fwd-lights-controller#v1.46.33",
+        "fwd-edu-lights-controller": "github:ssande-fwd/pxt-fwd-edu-ph/fwd-lights-controller#v1.46.34",
         "fwd-edu-line": "github:climate-action-kits/pxt-fwd-edu/fwd-line",
         "fwd-edu-moisture": "github:climate-action-kits/pxt-fwd-edu/fwd-moisture",
         "fwd-edu-solar": "github:climate-action-kits/pxt-fwd-edu/fwd-solar",
         "fwd-edu-sonar": "github:climate-action-kits/pxt-fwd-edu/fwd-sonar",
         "fwd-edu-touch": "github:climate-action-kits/pxt-fwd-edu/fwd-touch",
-        "fwd-edu-ph": "github:ssande-fwd/pxt-fwd-edu-ph/fwd-ph#v1.46.33",
+        "fwd-edu-ph": "github:ssande-fwd/pxt-fwd-edu-ph/fwd-ph#v1.46.34",
         "fwd-edu-temperature": "ssande-fwd/pxt-fwd-edu-ph/fwd-temperature"
     },
     "files": [
