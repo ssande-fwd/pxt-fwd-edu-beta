@@ -1,6 +1,6 @@
 {
     "name": "Forward Education Lights Module V4",
-    "version": "1.46.41",
+    "version": "1.46.42",
     "description": "Controls LED lights",
     "files": [
         "constants.ts",
